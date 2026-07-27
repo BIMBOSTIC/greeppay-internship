@@ -1,0 +1,12 @@
+C:\Users\DC\stellar_practice\target\debug\deps\signature-e54b976b7f60f150.d: C:\Users\DC\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\signature-2.2.0\src\lib.rs C:\Users\DC\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\signature-2.2.0\src\hazmat.rs C:\Users\DC\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\signature-2.2.0\src\encoding.rs C:\Users\DC\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\signature-2.2.0\src\error.rs C:\Users\DC\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\signature-2.2.0\src\keypair.rs C:\Users\DC\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\signature-2.2.0\src\signer.rs C:\Users\DC\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\signature-2.2.0\src\verifier.rs C:\Users\DC\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\signature-2.2.0\src\../README.md
+
+C:\Users\DC\stellar_practice\target\debug\deps\libsignature-e54b976b7f60f150.rmeta: C:\Users\DC\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\signature-2.2.0\src\lib.rs C:\Users\DC\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\signature-2.2.0\src\hazmat.rs C:\Users\DC\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\signature-2.2.0\src\encoding.rs C:\Users\DC\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\signature-2.2.0\src\error.rs C:\Users\DC\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\signature-2.2.0\src\keypair.rs C:\Users\DC\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\signature-2.2.0\src\signer.rs C:\Users\DC\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\signature-2.2.0\src\verifier.rs C:\Users\DC\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\signature-2.2.0\src\../README.md
+
+C:\Users\DC\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\signature-2.2.0\src\lib.rs:
+C:\Users\DC\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\signature-2.2.0\src\hazmat.rs:
+C:\Users\DC\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\signature-2.2.0\src\encoding.rs:
+C:\Users\DC\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\signature-2.2.0\src\error.rs:
+C:\Users\DC\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\signature-2.2.0\src\keypair.rs:
+C:\Users\DC\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\signature-2.2.0\src\signer.rs:
+C:\Users\DC\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\signature-2.2.0\src\verifier.rs:
+C:\Users\DC\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\signature-2.2.0\src\../README.md:
