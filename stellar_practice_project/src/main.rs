@@ -1,8 +1,4 @@
-// establish_trustline_and_send_asset_runnable.rs
-//
-// A fully compiling version of last week's example, using dummy values
-// wherever the original snippet assumed something already existed.
-//
+
 // Network calls (server.load_account, server.submit_transaction) are
 // commented out and replaced with prints, since they require a live
 // connection to a real Horizon server to actually execute. Everything
@@ -21,11 +17,9 @@ use std::str::FromStr;
 
 fn main() -> Result<(), Box<dyn std::error::Error>> {
 
-    // -----------------------------------------------------------
     // Dummy values, standing in for what would normally come from
     // your own account setup and a Horizon query
-    // -----------------------------------------------------------
-
+  
     // FIX for error 3: source_kp was never defined, generate one
     let source_kp = DalekKeyPair::random()?;
 
@@ -42,9 +36,8 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     println!("Source account   = {}", source_kp.public_key().account_id());
     println!("Issuer account   = {}", issuer.account_id());
 
-    // -----------------------------------------------------------
     // 1. Build the ChangeTrust operation
-    // -----------------------------------------------------------
+
 
     let credit_asset = Asset::new_credit("USDC", issuer)?;
 
@@ -58,9 +51,8 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
 
     println!("Built ChangeTrust operation for asset USDC");
 
-    // -----------------------------------------------------------
+
     // 2. Assemble and sign the trustline transaction
-    // -----------------------------------------------------------
 
     let mut trust_tx = Transaction::builder(
         source_kp.public_key(),
@@ -79,9 +71,9 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     // let trust_response = server.submit_transaction(trust_tx)?;
     println!("(submission skipped, no live server connection in this example)");
 
-    // -----------------------------------------------------------
+
     // 3. Build and sign the payment
-    // -----------------------------------------------------------
+
 
     // Stand-in recipient, a third random keypair
     let destination_kp = DalekKeyPair::random()?;
