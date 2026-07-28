@@ -108,4 +108,4 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     println!("(submission skipped, no live server connection in this example)");
 
     Ok(())
-} fn main
+} 
