@@ -19,7 +19,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
 
     // Dummy values, standing in for what would normally come from
     // your own account setup and a Horizon query
-  
+
     // FIX for error 3: source_kp was never defined, generate one
     let source_kp = DalekKeyPair::random()?;
 
@@ -38,7 +38,6 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
 
     // 1. Build the ChangeTrust operation
 
-
     let credit_asset = Asset::new_credit("USDC", issuer)?;
 
     let trust_op = Operation::new_change_trust()
@@ -50,7 +49,6 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
         .build()?;
 
     println!("Built ChangeTrust operation for asset USDC");
-
 
     // 2. Assemble and sign the trustline transaction
 
@@ -71,9 +69,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     // let trust_response = server.submit_transaction(trust_tx)?;
     println!("(submission skipped, no live server connection in this example)");
 
-
     // 3. Build and sign the payment
-
 
     // Stand-in recipient, a third random keypair
     let destination_kp = DalekKeyPair::random()?;
@@ -112,4 +108,4 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     println!("(submission skipped, no live server connection in this example)");
 
     Ok(())
-}
+} fn main
